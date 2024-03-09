@@ -28,7 +28,6 @@ class tokens
 
 void store_data(char *value, vector<tokens> &data, int type);
 void tokenising(FILE * );
-char *mystrtok(char *arr, const char *delim);
 void print_data(vector<tokens> &data);
 
 #endif
